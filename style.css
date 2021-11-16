@@ -1,0 +1,49 @@
+* {
+    font-family: 'Cinzel', serif;
+}
+
+.navbar-item {
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.moe {
+    font-weight: 600;
+}
+
+.navbar-burger {
+    height: 80px;
+}
+
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 100px;
+    background-color: hsl(48, 100%, 29%);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    top: 110%;
+}
+  
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
