@@ -50,7 +50,7 @@
 }
 
 .has-bg-img {
-    background: url('/images/idontknowthismonkeybutdonttrusthim.gif')center;
+    background: url('./images/idontknowthismonkeybutdonttrusthim.gif')center;
     background-size: cover;
 }
 
