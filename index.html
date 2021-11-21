@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moe Cheaib</title>
     <link rel="shortcut icon" href="./images/wholesomebabyorangutan.jpg" type="image/x-icon">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
-    <link rel="stylesheet" href="style.css"/>
-    <!-- <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"> -->
+    <link rel="stylesheet" href="./assets/style.css"/>
     <script src="https://kit.fontawesome.com/8c6fbba865.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -19,12 +18,14 @@
     
     <section class="hero is-fullheight has-bg-img">
         
+        <!-- navbar -->
         <nav class="navbar has-background-black is-fixed-top" role="navigation" aria-label="main navigation" id="navtop">
             
             <div class="navbar-brand">
 
                 <div class="dropdown navbar-item is-hoverable">
 
+                    <!-- my name -->
                     <a class="moe">
                         <span class="is-size-5">Moe Cheaib</span>
                         <span class="icon">
@@ -32,6 +33,7 @@
                         </span>
                     </a>
         
+                    <!-- drop down menu pls dont make complaints im sensitive -->
                     <div class="dropdown-menu" role="menu">
                         <div class="dropdown-content has-background-black is-boxed">
                             <a class="dropdown-item p-2 shadow fave" href=#about>
@@ -44,7 +46,7 @@
                                 <i class="fas fa-address-book"></i> Contact
                             </a>
                             <hr class="dropdown-divider colour">
-                            <a class="dropdown-item p-2 shadow" href="images/betrayal.png" target=”_blank”>
+                            <a class="dropdown-item p-2 shadow" href="images/betrayal.png" target="_blank">
                             <i class="fas fa-heart-broken"></i> Make a complaint :(
                             </a>
                         </div>
@@ -52,12 +54,14 @@
 
                 </div>
                 
+                <!-- cute orangutan takes away from the whole aesthetic of the site but adds wholesomeness -->
                 <a class="p-2" href="./images/manilovethismonkeyiwanttoadopthimandcallhimfrankshortformichelangelo.jpg" target=”_blank”>
                     <figure class="image is-64x64">
                         <img class="is-rounded" src="./images/wholesomebabyorangutan.jpg" alt="cutelittleorangutan">
                     </figure>
                 </a>
         
+                <!-- navbar for mobile device -->
                 <a role="button" class="navbar-burger moe" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -66,10 +70,11 @@
 
             </div>
         
-            <div id="navbarBasicExample" class="navbar-menu">
+            <div id="navbarBasicExample" class="navbar-menu has-background-black">
                 
+                <!-- navbar icons with resume, linkedin and github -->
                 <div class="navbar-end">
-                    <a class="navbar-item hovertext has-text-centered shadow" href="" data-hover="Resume" target=”_blank”>
+                    <a class="navbar-item hovertext has-text-centered shadow" href="./assets/Moe's Resume.pdf" data-hover="Resume" target=”_blank”>
                         <span class="icon is-large fas fa-3x"><i class="fas fa-file-alt"></i></i></span>
                     </a>
                     <a class="navbar-item hovertext has-text-centered shadow" href="https://www.linkedin.com/in/moe-cheaib-0a904121a/" data-hover="Linked In" target=”_blank”>
@@ -84,14 +89,16 @@
             
         </nav>
 
+        <!-- my name again, so egotistical -->
         <div class="hero-body">
             <div class="container has-text-centered">
                 <p class="moe is-size-1">
                     MOE CHEAIB
                 </p>
+                <!-- not just any jungle -->
                 <p class="moe">
                     <span class="fadein is-size-5">Welcome to the jungle</span><br>
-                    <span class="is-size-6 fadein2">of disappointment</span>
+                    <a class="moe is-size-6 fadein2" href="./images/obi-wan-ps-jarjarbinksisasithlord.jpg" target="_blank">of disappointment</a>
                 </p>
             </div>
         </div>
@@ -99,12 +106,14 @@
         <nav class="navbar is-fixed-bottom has-background-black" id="navfooter">
             <div class="navbar-menu is-active has-background-black is-flex is-justify-content-space-around">
 
+                <!-- mobile no. also hides text but leaves the icon in mobile screenport  - text me im lonely-->
                 <div class="navbar-start">
                     <div class="navbar-item">
                         <a class="moe" href="tel:0413126877"><i class="fas fa-mobile-alt p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">0413 126 877</span></a>
                     </div>
                 </div>
 
+                <!-- email also hides text but leaves the icon in mobile screenport -->
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <a class="moe" href="mailto:moeacheaib@gmail.com"><span class="p-2 has-text-weight-medium is-hidden-mobile">moeacheaib@gmail.com</span><i class="fas fa-envelope p-2"></i></a>
@@ -115,6 +124,7 @@
 
     </section>
 
+    <!-- all about me -->
     <section class="hero is-black" id="about">
         <div class="hero-body">
             <div class="columns">
@@ -123,19 +133,27 @@
                     Hello, my name is Moe<br>
                     my favourite animal is a baby orangutan<br>
                     I have approximate knowledge of some things<br>
-                    My mother is one of the only people who thinks I'm handsome<br> 
+                    Despite what most people think, my mother says I'm quite handsome<br> 
                     I have worked in a variety of fields and am quite adaptable<br>
                     This includes pharmacy, mining, transport, business management and now developing<br>
-                    my favourite colour is orange
+                    My favourite colour is orange
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- projects main group project big, other ones small -->
     <section class="hero is-medium" id="projects">
         <div class="hero-body">
             <div class="columns">
-                <div class="column has-text-centered is-size-1 has-text-weight-bold is-align-self-flex-start has-text-black m-auto">Projects</div>
+                <div class="column has-text-centered is-size-1 has-text-weight-bold is-align-self-flex-start has-text-black m-auto">Projects
+                    <a class="column" href="https://github.com/nicoletr/project1-finance-tracker" target="_blank">
+                        <figure class="image is-256x256 m-auto hover-zoom">
+                            <img src="images/crypto.jpg" alt="Crypto Tracker">
+                        </figure>
+                        <p class="has-text-black is-size-5 has-text-weight-bold p-1">Crypto Currency Tracker</p>
+                    </a>
+                </div>
                 <div class="column has-text-centered">
                     <div class="columns is-flex is-justify-content-space-around p-5 m-auto">
                         <a class="column" href="https://moeac.github.io/MoeC-WeatherDashboard/" target="_blank">
@@ -170,18 +188,20 @@
         </div>
     </section>
 
-    <section class="hero is-black" id="contact">
+    <!-- contact details -->
+    <section class="hero is-black p-3" id="contact">
         <div class="hero-body">
             <div class="columns">
                 <div class="column has-text-centered is-size-1 has-text-weight-bold is-align-self-flex-start m-auto">Contact</div>
                 <div class="column has-text-centered is-align-self-flex-end is-align-self-center m-auto">
-                    <a class="moe" href="tel:0413126877"><i class="fas fa-mobile-alt p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">0413 126 877</span></a> <br>
-                    <a class="moe" href="mailto:moeacheaib@gmail.com"><i class="fas fa-envelope p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">moeacheaib@gmail.com</span></a> <br>
-                    <a class="moe" href="https://goo.gl/maps/D99xrTPgGwvmXFhM9" targer="_blank"><i class="fas fa-home p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">1 Nunya St, Mindyabiness <br> Not WA</span></a>
+                    <a class="moe shadow" href="tel:0413126877"><i class="fas fa-mobile-alt p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">0413 126 877</span></a> <br>
+                    <a class="moe shadow" href="mailto:moeacheaib@gmail.com"><i class="fas fa-envelope p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">moeacheaib@gmail.com</span></a> <br>
+                    <a class="moe shadow" href="https://goo.gl/maps/D99xrTPgGwvmXFhM9" targer="_blank"><i class="fas fa-home p-2"></i><span class="p-2 has-text-weight-medium is-hidden-mobile">1 Not Comfortable St, Sharing my address <br>Antarctica</span></a>
                 </div>
             </div>
         </div>
     </section>
-
+    
+<script src="./assets/script.js"></script>
 </body>
 </html>
