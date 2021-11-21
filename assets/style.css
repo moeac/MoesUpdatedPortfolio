@@ -54,7 +54,7 @@
 
 /* sets the creepy orangutan gif background */
 .has-bg-img {
-    background: url('/images/idontknowthismonkeybutdonttrusthim.gif')center;
+    background: url('../images/idontknowthismonkeybutdonttrusthim.gif')center;
     background-size: cover;
 }
 
@@ -84,6 +84,12 @@
 
 .colour {
     background-color: orange;
+}
+
+/* sets project icon to size */
+.crypto {
+    height: 256px;
+    width: 256px;
 }
 
 /* fade in effects for disappointing text */
